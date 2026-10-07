@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+body {
+    background-color: #E6E1D8; /* Fondo claro de la pantalla */
+    font-family: 'Inter', sans-serif;
+}
+
+.login-card {
+    max-width: 900px;
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: #FAF8F2;
+}
+
+/* Panel Izquierdo */
+.panel-left {
+    background: linear-gradient(145deg, #4A362C 0%, #3D2B22 100%);
+    border-radius: 20px 0 0 20px;
+}
+
+.badge-custom {
+    background-color: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    font-weight: 600;
+    padding: 0.5em 1em;
+}
+
+.text-brown {
+    color: #3D2B22 !important;
+}
+
+.logo-placeholder {
+    width: 120px;
+    height: 120px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+.footer-left small {
+    opacity: 0.8;
+}
+
+/* Panel Derecho */
+.bg-cream {
+    background-color: #FAF8F2;
+}
+
+/* Inputs personalizados */
+.input-custom {
+    background-color: #E8EDF2; /* Fondo azulado/gris claro */
+}
+
+.input-custom .form-control {
+    box-shadow: none !important;
+}
+
+.input-custom .form-control:focus {
+    background-color: transparent;
+}
+
+/* Botón y Links */
+.custom-link:hover {
+    color: #E0A843 !important;
+}
+
+.btn-mustard {
+    background-color: #E0A843;
+    color: #3D2B22;
+    transition: all 0.3s ease;
+}
+
+.btn-mustard:hover {
+    background-color: #D19A39;
+    color: #3D2B22;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(224, 168, 67, 0.4);
+}
+
+@media (max-width: 768px) {
+    .panel-left {
+        border-radius: 20px 20px 0 0;
+    }
+}
